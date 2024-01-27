@@ -5,6 +5,7 @@ using System.Net;
 using System.Threading.Tasks;
 using Appointments.Domain.Models;
 using Appointments.Infrastructure.Data;
+using Appointments.Infrastructure.Data.Repositories;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -15,12 +16,14 @@ namespace Appointments.Api.Controllers
     public class TraineeController : ControllerBase
     {
         private readonly DataContext _context;
+        private readonly Repository<Trainee> _repo;
         private readonly UnitOfWork _uow;
 
-        public TraineeController(DataContext context, UnitOfWork unitOfWork)
+        public TraineeController(DataContext context, UnitOfWork unitOfWork, Repository<Trainee> repo)
         {
             _context = context;
             _uow = unitOfWork;
+            _repo = repo;
         }
 
         [HttpGet]
@@ -28,7 +31,7 @@ namespace Appointments.Api.Controllers
         [ProducesResponseType((int)HttpStatusCode.NoContent)]
         public async Task<IActionResult> GetAllAsnync()
         {
-            var result = await _context.Trainees.ToListAsync();
+            var result = await _repo.GetAllAsync();
             return Ok(result);
         }
 

@@ -1,0 +1,12 @@
+C:\Users\leozi\projetos\back-end\Appointments\Appointments.Domain\bin\Debug\net7.0\Appointments.Domain.deps.json
+C:\Users\leozi\projetos\back-end\Appointments\Appointments.Domain\bin\Debug\net7.0\Appointments.Domain.dll
+C:\Users\leozi\projetos\back-end\Appointments\Appointments.Domain\bin\Debug\net7.0\Appointments.Domain.pdb
+C:\Users\leozi\projetos\back-end\Appointments\Appointments.Domain\obj\Debug\net7.0\Appointments.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leozi\projetos\back-end\Appointments\Appointments.Domain\obj\Debug\net7.0\Appointments.Domain.AssemblyInfoInputs.cache
+C:\Users\leozi\projetos\back-end\Appointments\Appointments.Domain\obj\Debug\net7.0\Appointments.Domain.AssemblyInfo.cs
+C:\Users\leozi\projetos\back-end\Appointments\Appointments.Domain\obj\Debug\net7.0\Appointments.Domain.csproj.CoreCompileInputs.cache
+C:\Users\leozi\projetos\back-end\Appointments\Appointments.Domain\obj\Debug\net7.0\Appointments.Domain.sourcelink.json
+C:\Users\leozi\projetos\back-end\Appointments\Appointments.Domain\obj\Debug\net7.0\Appointments.Domain.dll
+C:\Users\leozi\projetos\back-end\Appointments\Appointments.Domain\obj\Debug\net7.0\refint\Appointments.Domain.dll
+C:\Users\leozi\projetos\back-end\Appointments\Appointments.Domain\obj\Debug\net7.0\Appointments.Domain.pdb
+C:\Users\leozi\projetos\back-end\Appointments\Appointments.Domain\obj\Debug\net7.0\ref\Appointments.Domain.dll

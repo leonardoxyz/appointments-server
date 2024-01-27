@@ -1,5 +1,6 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "tFubLxVUKgIS6zk3FtB3bRvoS/UnmYW2kYtvZ1dnfCJGeFWH5nLJTRbBwpUDoEIXXhJfATtwm7M0Kj1HTzHEMA==",
   "success": true,
   "projectFilePath": "C:\\Users\\leozi\\projetos\\back-end\\Appointments\\Appointments.Api\\Appointments.Api.csproj",
@@ -40,6 +41,19 @@
     "C:\\Users\\leozi\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\leozi\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\leozi\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512"
+=======
+  "dgSpecHash": "cd/RcSiBXWPZxC1zgphrh1ESR6bGF4UzHGyU50XaWDQs7IbrXvDvACx74ZRuxaB2XKeQkyq9XvSJvN4gD7wurw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\leozi\\projetos\\back-end\\Appointments\\Appointments.Api\\Appointments.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\leozi\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.14\\microsoft.aspnetcore.openapi.7.0.14.nupkg.sha512",
+    "C:\\Users\\leozi\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\leozi\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\leozi\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\leozi\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\leozi\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\leozi\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+>>>>>>> 5748308c766477e2adb750e7e8490d28b00093ca
   ],
   "logs": []
 }

@@ -2,6 +2,7 @@
   "version": 3,
   "targets": {
     "net7.0": {
+<<<<<<< HEAD
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -15,6 +16,8 @@
           }
         }
       },
+=======
+>>>>>>> 5748308c766477e2adb750e7e8490d28b00093ca
       "Microsoft.AspNetCore.OpenApi/7.0.14": {
         "type": "package",
         "dependencies": {
@@ -34,6 +37,7 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+<<<<<<< HEAD
       "Microsoft.Data.Sqlite.Core/7.0.15": {
         "type": "package",
         "dependencies": {
@@ -177,6 +181,8 @@
           "lib/net6.0/_._": {}
         }
       },
+=======
+>>>>>>> 5748308c766477e2adb750e7e8490d28b00093ca
       "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
         "type": "package",
         "build": {
@@ -188,6 +194,7 @@
           "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.targets": {}
         }
       },
+<<<<<<< HEAD
       "Microsoft.Extensions.Caching.Abstractions/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -378,6 +385,8 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+=======
+>>>>>>> 5748308c766477e2adb750e7e8490d28b00093ca
       "Microsoft.OpenApi/1.4.3": {
         "type": "package",
         "compile": {
@@ -391,6 +400,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "Mono.TextTemplating/2.2.1": {
         "type": "package",
         "dependencies": {
@@ -546,6 +556,8 @@
           "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
+=======
+>>>>>>> 5748308c766477e2adb750e7e8490d28b00093ca
       "Swashbuckle.AspNetCore/6.5.0": {
         "type": "package",
         "dependencies": {
@@ -608,6 +620,7 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+<<<<<<< HEAD
       },
       "System.CodeDom/4.4.0": {
         "type": "package",
@@ -696,10 +709,13 @@
         "runtime": {
           "bin/placeholder/Appointments.Infrastructure.dll": {}
         }
+=======
+>>>>>>> 5748308c766477e2adb750e7e8490d28b00093ca
       }
     }
   },
   "libraries": {
+<<<<<<< HEAD
     "Humanizer.Core/2.14.1": {
       "sha512": "lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
       "type": "package",
@@ -718,6 +734,8 @@
         "logo.png"
       ]
     },
+=======
+>>>>>>> 5748308c766477e2adb750e7e8490d28b00093ca
     "Microsoft.AspNetCore.OpenApi/7.0.14": {
       "sha512": "GvrqOw9jyBSAUPQqEFmptKGwr7IH4Wvn+iDZKaEeccCmlXiBPRbTzdlqduc+teiMqnK/JJByg4FMwYHkPin1OA==",
       "type": "package",
@@ -733,6 +751,7 @@
         "microsoft.aspnetcore.openapi.nuspec"
       ]
     },
+<<<<<<< HEAD
     "Microsoft.Data.Sqlite.Core/7.0.15": {
       "sha512": "SZxC9pArWvotrcQcZi0hQTlgF6xErfkgG0gGNLfN/QhHBTamEfJq2hreVeBHQSKf2wz5Hkv4AltiAcqHVeqihA==",
       "type": "package",
@@ -873,6 +892,8 @@
         "tools/netcoreapp2.0/any/ef.runtimeconfig.json"
       ]
     },
+=======
+>>>>>>> 5748308c766477e2adb750e7e8490d28b00093ca
     "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
       "sha512": "Ckb5EDBUNJdFWyajfXzUIMRkhf52fHZOQuuZg/oiu8y7zDCVwD0iHhew6MnThjHmevanpxL3f5ci2TtHQEN6bw==",
       "type": "package",
@@ -1104,6 +1125,7 @@
         "tools/netcoreapp2.1/System.Diagnostics.DiagnosticSource.dll"
       ]
     },
+<<<<<<< HEAD
     "Microsoft.Extensions.Caching.Abstractions/7.0.0": {
       "sha512": "IeimUd0TNbhB4ded3AbgBLQv2SnsiVugDyGV1MvspQFVlA07nDC7Zul7kcwH5jWN3JiTcp/ySE83AIJo8yfKjg==",
       "type": "package",
@@ -1426,6 +1448,8 @@
         "useSharedDesignerContext.txt"
       ]
     },
+=======
+>>>>>>> 5748308c766477e2adb750e7e8490d28b00093ca
     "Microsoft.OpenApi/1.4.3": {
       "sha512": "rURwggB+QZYcSVbDr7HSdhw/FELvMlriW10OeOzjPT7pstefMo7IThhtNtDudxbXhW+lj0NfX72Ka5EDsG8x6w==",
       "type": "package",
@@ -1440,6 +1464,7 @@
         "microsoft.openapi.nuspec"
       ]
     },
+<<<<<<< HEAD
     "Mono.TextTemplating/2.2.1": {
       "sha512": "KZYeKBET/2Z0gY1WlTAK7+RHTl7GSbtvTLDXEZZojUdAPqpQNDL6tHv7VUpqfX5VEOh+uRGKaZXkuD253nEOBQ==",
       "type": "package",
@@ -1543,6 +1568,8 @@
         "sqlitepclraw.provider.e_sqlite3.nuspec"
       ]
     },
+=======
+>>>>>>> 5748308c766477e2adb750e7e8490d28b00093ca
     "Swashbuckle.AspNetCore/6.5.0": {
       "sha512": "FK05XokgjgwlCI6wCT+D4/abtQkL1X1/B9Oas6uIwHFmYrIO9WUD5aLC9IzMs9GnHfUXOtXZ2S43gN1mhs5+aA==",
       "type": "package",
@@ -1632,6 +1659,7 @@
         "swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+<<<<<<< HEAD
     },
     "System.CodeDom/4.4.0": {
       "sha512": "2sCCb7doXEwtYAbqzbF/8UAeDRMNmPaQbU2q50Psg1J9KzumyVVCgKQY8s53WIPTufNT0DpSe9QRvVjOzfDWBA==",
@@ -1786,12 +1814,17 @@
       "type": "project",
       "path": "../Appointments.Infrastructure/Appointments.Infrastructure.csproj",
       "msbuildProject": "../Appointments.Infrastructure/Appointments.Infrastructure.csproj"
+=======
+>>>>>>> 5748308c766477e2adb750e7e8490d28b00093ca
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+<<<<<<< HEAD
       "Appointments.Domain >= 1.0.0",
       "Appointments.Infrastructure >= 1.0.0",
+=======
+>>>>>>> 5748308c766477e2adb750e7e8490d28b00093ca
       "Microsoft.AspNetCore.OpenApi >= 7.0.14",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
@@ -1822,6 +1855,7 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+<<<<<<< HEAD
           "projectReferences": {
             "C:\\Users\\leozi\\projetos\\back-end\\Appointments\\Appointments.Domain\\Appointments.Domain.csproj": {
               "projectPath": "C:\\Users\\leozi\\projetos\\back-end\\Appointments\\Appointments.Domain\\Appointments.Domain.csproj"
@@ -1830,6 +1864,9 @@
               "projectPath": "C:\\Users\\leozi\\projetos\\back-end\\Appointments\\Appointments.Infrastructure\\Appointments.Infrastructure.csproj"
             }
           }
+=======
+          "projectReferences": {}
+>>>>>>> 5748308c766477e2adb750e7e8490d28b00093ca
         }
       },
       "warningProperties": {

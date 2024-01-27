@@ -27,6 +27,7 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
+<<<<<<< HEAD
             "projectReferences": {
               "C:\\Users\\leozi\\projetos\\back-end\\Appointments\\Appointments.Domain\\Appointments.Domain.csproj": {
                 "projectPath": "C:\\Users\\leozi\\projetos\\back-end\\Appointments\\Appointments.Domain\\Appointments.Domain.csproj"
@@ -35,6 +36,9 @@
                 "projectPath": "C:\\Users\\leozi\\projetos\\back-end\\Appointments\\Appointments.Infrastructure\\Appointments.Infrastructure.csproj"
               }
             }
+=======
+            "projectReferences": {}
+>>>>>>> 5748308c766477e2adb750e7e8490d28b00093ca
           }
         },
         "warningProperties": {
@@ -78,6 +82,7 @@
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
+<<<<<<< HEAD
     },
     "C:\\Users\\leozi\\projetos\\back-end\\Appointments\\Appointments.Domain\\Appointments.Domain.csproj": {
       "version": "1.0.0",
@@ -210,6 +215,8 @@
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
+=======
+>>>>>>> 5748308c766477e2adb750e7e8490d28b00093ca
     }
   }
 }

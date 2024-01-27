@@ -15,10 +15,12 @@ namespace Appointments.Api.Controllers
     public class TraineeController : ControllerBase
     {
         private readonly DataContext _context;
+        private readonly UnitOfWork _uow;
 
-        public TraineeController(DataContext context)
+        public TraineeController(DataContext context, UnitOfWork unitOfWork)
         {
             _context = context;
+            _uow = unitOfWork;
         }
 
         [HttpGet]
@@ -28,6 +30,64 @@ namespace Appointments.Api.Controllers
         {
             var result = await _context.Trainees.ToListAsync();
             return Ok(result);
+        }
+
+        [HttpPost]
+        [ProducesResponseType((int)HttpStatusCode.OK)]
+        [ProducesResponseType((int)HttpStatusCode.NotFound)]
+        [ProducesResponseType((int)HttpStatusCode.BadRequest)]
+        public async Task<IActionResult> AddTrainee([FromBody] Trainee request)
+        {
+            if (request == null)
+            {
+                return BadRequest();
+            }
+
+            await _context.Trainees.AddAsync(request);
+            await _uow.SaveChangesAsync();
+
+            return Ok();
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteTrainee(Guid id)
+        {
+            var trainee = await _context.Trainees.FindAsync(id);
+            if (trainee == null)
+            {
+                return NotFound();
+            }
+
+            _context.Trainees.Remove(trainee);
+            await _uow.SaveChangesAsync();
+
+            return Ok();
+        }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetById(Guid id)
+        {
+            var trainee = await _context.Trainees.FindAsync(id);
+            if (trainee == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(trainee);
+        }
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> PutTrainee(Guid id, [FromBody] Trainee request)
+        {
+            if (id != request.Id)
+            {
+                return BadRequest();
+            }
+
+            _context.Entry(request).State = EntityState.Modified;
+            await _uow.SaveChangesAsync();
+
+            return Ok();
         }
     }
 }

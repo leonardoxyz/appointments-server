@@ -72,5 +72,38 @@ namespace Appointments.Api.Controllers
 
             return Ok();
         }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetById(Guid id)
+        {
+            var project = await _ipr.FindByIdAsync(id);
+            if (project == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(project);
+        }
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateProject(Guid id, [FromBody] Project request)
+        {
+            var project = await _ipr.FindByIdAsync(id);
+            if (project == null)
+            {
+                return NotFound();
+            }
+
+            project.ProjectName = request.ProjectName;
+            project.DateStart = request.DateStart;
+            project.DateEnd = request.DateEnd;
+            project.Description = request.Description;
+            project.IsActive = request.IsActive;
+
+            await _ipr.UpdateAsync(project);
+            await _uow.SaveChangesAsync();
+
+            return Ok();
+        }
     }
 }
